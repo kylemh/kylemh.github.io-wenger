@@ -112,7 +112,7 @@ small {
     transition: all .4s ease-in-out;
 }
 
-.hovereffect:hover .overlay {
+.hovereffect:hover .overlay, .hovereffect:active .overlay {
     opacity: 1;
     filter: alpha(opacity=100);
 }
