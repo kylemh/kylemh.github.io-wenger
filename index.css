@@ -117,7 +117,7 @@ small {
     filter: alpha(opacity=100);
 }
 
-.hovereffect:hover img, .hovereffect:active img {
+.hovereffect:hover img, .hovereffect:focus img {
     /*z-index: 100;*/
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
