@@ -112,12 +112,13 @@ small {
     transition: all .4s ease-in-out;
 }
 
-.hovereffect:hover .overlay, .hovereffect:focus .overlay {
+.hovereffect:hover .overlay {
     opacity: 1;
     filter: alpha(opacity=100);
 }
 
-.hovereffect:hover img {
+.hovereffect:hover img, .hovereffect:active img {
+    /*z-index: 100;*/
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
