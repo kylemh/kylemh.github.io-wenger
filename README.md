@@ -1,3 +1,3 @@
 # kylemh.github.io
 
-<b>Currently Hosting:</b> Arséne Wenger Tribute Page - FreeCodeCamp Project
+<b>Currently Hosting:</b> Arseène Wenger Tribute Page - FreeCodeCamp Project
