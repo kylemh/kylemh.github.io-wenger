@@ -151,7 +151,8 @@ hr {
 }
 
 .hovereffect:hover img,
-.hovereffect:focus img {
+.hovereffect:focus img,
+.hovereffect:active img {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
