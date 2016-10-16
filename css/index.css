@@ -10,24 +10,35 @@
         margin-top: 16px;
         margin-bottom: 16px;
     }
-}
 
-h1,
-h2,
-h3,
-h6 {
-    text-align: center;
-}
-
-h2 {
-    border-bottom: 2px solid dimgrey;
-    padding-bottom: 5%;
-    border-bottom-right-radius: 35%;
-    border-bottom-left-radius: 35%
+    .quote {
+        font-size: 10px;
+    }
 }
 
 body {
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+}
+
+a {
+    color: #062561;
+    text-decoration: underline;
+}
+
+h3 {
+    border-bottom: 2px solid dimgrey;
+    padding-bottom: 2rem;
+}
+
+h5 {
+    text-transform: uppercase;
 }
 
 small {
@@ -35,14 +46,34 @@ small {
     white-space: nowrap;
 }
 
+hr {
+    margin: 0%;
+}
+
+.quote {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    font-style: italic;
+    padding: 10%;
+}
+
+.row {
+    padding: 5%;
+}
+
+.container {
+    padding: 7.5%;
+}
+
 .container-fluid {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .well {
     margin-left: 5%;
     margin-right: 5%;
+    padding: 2% 5% 5% 5%;
 }
 
 .headline-case {
@@ -50,9 +81,14 @@ small {
     height: 10%;
 }
 
+#bottomhr {
+    margin-bottom: 5%;
+}
+
+/* Banner */
 .banner {
     width: 100%;
-    height: 170px;
+    height: 150px;
     margin-top: 10%;
     background-image: linear-gradient(180deg, #FF555B 0%, #FF0522 15%, #BD0E1B 85%, #870812 100%);
     border-top: 5px solid #A07840;
@@ -67,6 +103,7 @@ small {
     transform: translateY(-50%);
 }
 
+/* Hover Effect on Trophycase */
 .hovereffect {
     border-radius: 100%;
     border: 5px red solid;
