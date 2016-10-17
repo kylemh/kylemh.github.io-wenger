@@ -159,6 +159,10 @@ hr {
     transition: all .4s ease-in-out;
 }
 
+.hovereffect:focus {
+    border-radius: 0%;
+}
+
 .hovereffect:focus .overlay,
 .hovereffect:hover .overlay,
 .hovereffect:active .overlay {
